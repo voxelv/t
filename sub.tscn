@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://sub.gd" type="Script" id=1]
+[ext_resource path="res://pb_test.gd" type="Script" id=2]
 
 [node name="sub" type="Node" index="0"]
 
@@ -207,7 +208,7 @@ anchor_right = 0.0
 anchor_bottom = 0.0
 margin_top = 48.0
 margin_right = 1010.0
-margin_bottom = 68.0
+margin_bottom = 64.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 mouse_filter = 1
@@ -222,9 +223,9 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_top = 3.0
+margin_top = 1.0
 margin_right = 120.0
-margin_bottom = 17.0
+margin_bottom = 15.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 mouse_filter = 2
@@ -243,8 +244,9 @@ anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
 margin_left = 124.0
-margin_right = 140.0
+margin_right = 224.0
 margin_bottom = 16.0
+rect_min_size = Vector2( 100, 0 )
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 mouse_filter = 0
@@ -258,6 +260,8 @@ page = 0.0
 value = 0.0
 exp_edit = false
 rounded = false
-percent_visible = true
+percent_visible = false
+script = ExtResource( 2 )
+_sections_unfolded = [ "Percent" ]
 
 
